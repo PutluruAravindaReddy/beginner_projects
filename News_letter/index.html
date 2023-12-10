@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <!-- Sign-up form start -->
+<div class="both-boxes">
+  <div class="left-box">
+    <p class="head-stayupdated">Stay updated!</p>
+
+    <p class="join">Join 60,000+ product managers receiving monthly updates on:</p>
+  
+    <div class="product points">
+      <i class="fa-solid fa-circle-check" style="color: #ff7900;"></i>
+      <p class="tick-content">Product discovery and building what matters</p>
+    </div>
+    <div class="measuring points">
+      <i class="fa-solid fa-circle-check" style="color: #ff7900;"></i>
+      <p class="tick-content">Measuring to ensure updates are a success</p>
+    </div>
+    <div class="muchmore points">
+      <i class="fa-solid fa-circle-check" style="color: #ff7900;"></i>
+      <p class="tick-content">And much more!</p>
+    </div>
+  
+    <label for="email" ><strong>Email address</strong><span class="warning invis">Valid email required</span></label><br/>
+    <input type="email" id="email" name="email" placeholder="email@gmail.com" class="search-text ">
+  
+    <button class="botton-select">Subscribe to monthly newsletter</button>
+
+    
+  </div>
+  <div class="image">
+    <img class="desktop-image"   src="./assets/images/illustration-sign-up-desktop.svg"/>
+<img class="mobile-image" src="./assets/images/illustration-sign-up-mobile.svg"/> 
+  </div>
+</div>
+<div class="both-boxes2 invis">
+  <div class="success-box">
+    <i id="tick-image"  class="fa-solid fa-circle-check" style="color: #ff7900;"></i>
+    <p class="thanks-for-sub">Thanks for subscribing!</p>
+  
+    <p class="success-note">A confirmation email has been sent to <strong class="email-stored">ash@gmail.com.</strong> 
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+
+    <button class="dismiss-button">Dismiss message</button>
+ </div> 
+</div>
+<footer>
+  <div class="footer">
+    <div class="links">
+        <a href="https://www.linkedin.com/in/aravinda-reddy-582364242 "><img class="logo" src="./assets/footer images/linkedin.png" alt="LinkedIn">LinkedIn</a>
+        <a class="github"  href="https://github.com/PutluruAravindaReddy"><img class="logo" src="./assets/footer images/github.png" alt="Githublogo">GitHub</a>
+        <a href="https://instagram.com/aravind_reddy234?igshid=ZDc4ODBmNjlmNQ=="><img class="logo" src="./assets/footer images/instagram.png" alt="Instagramlogo">Instagram</a>
+    </div>
+    <div class="copyright">
+      Coded by <a href="#" class="my_name">Aravinda Reddy.P</a>.
+    </div>
+</div>
+</footer>
+  <script src="index.js"></script>
+</body>
+</html>
