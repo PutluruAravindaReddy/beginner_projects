@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title> Age calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="outer-box hello">
+    <div class="headere">
+      <div class="day-month-year">
+        <div class="day">
+          <label for="quantity" class="common" id="date-label">D A Y</label>
+          <input type="day" id="date-input" name="quantity" placeholder="DD" class="bordere">
+          <p id="date-feild" class="invis-date">This feild is required</p>
+          <p id="date-must" class="invis-past-date">Must be a valid day</p>
+        </div>
+        <div class="month">
+          <label for="quantity" id="month-label" class="common">M O N T H</label>
+          <input type="day" id="month-input" name="quantity" placeholder="MM" class="bordere">
+          <p id="month-feild" class="invis-month">This feild is required</p>
+          <p  id="month-must" class="invis-past-month">Must be a valid month</p>
+        </div>
+        <div class="year">
+          <label for="quantity" id="year-label" class="common">Y E A R</label>
+          <input type="day" id="year-input" name="quantity" placeholder="YYYY" class="bordere">
+          <p id="year-feild" class="invis-year">This feild is required</p>
+          <p id="year-must" class="invis-past-year">Must be in the past</p>
+          <p id="year-above" class="invis-above-year">The year must be above 1900</p>
+        </div>
+      </div>
+      <div class="line-arrow">
+        <hr/>
+        
+        <img src="./assets/images/icon-arrow.svg" alt="down-arrow" class="down-arrow"/>
+      </div>
+    </div>
+
+    <div class="down-box invi">
+      <p id="display_name-age">Your age is:</p>
+      <p id="display_year" class="years common-display">-- years</p>
+      <p id="display_month" class="months common-display">-- months</p>
+      <p id="display_date" class="days common-display">-- days</p>
+      <button id="ok_show">OK</button>
+    </div>
+  </div>
+  <div id="show-down" class="invi">
+    <p class="heading-age">Your age is:</p>
+    <p id="display_year_show">-- years</p>
+    <p id="display_month_show">-- months</p>
+    <p id="display_date_show">-- days</p>
+    <button id="ok_show">OK</button>
+  </div>
+  <!-- <div class="attribution">
+    Coded by <a href="#">Aravinda Reddy.P</a>.
+  </div> -->
+  <footer>
+    <div class="footer">
+      <div class="links">
+          <a href="https://www.linkedin.com/in/aravinda-reddy-582364242 "><img class="logo" src="./assets/footer images/linkedin.png" alt="LinkedIn">LinkedIn</a>
+          <a class="github"  href="https://github.com/PutluruAravindaReddy"><img class="logo" src="./assets/footer images/github.png" alt="Githublogo">GitHub</a>
+          <a href="https://instagram.com/aravind_reddy234?igshid=ZDc4ODBmNjlmNQ=="><img class="logo" src="./assets/footer images/instagram.png" alt="Instagramlogo">Instagram</a>
+      </div>
+      <div class="copyright">
+        Coded by <a href="#" class="my_name">Aravinda Reddy.P</a>.
+      </div>
+  </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

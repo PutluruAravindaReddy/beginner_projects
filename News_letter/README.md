@@ -39,8 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://putluruaravindareddy.github.io/Frontend-Mentor-Exercises/newsletter-sign-up-with-success-message-main/index.html]
-
+- Live Site URL: [https://putluruaravindareddy.github.io/beginner_projects/News_letter/index.html]
 
 
 ### Built with
@@ -61,7 +60,7 @@ In this project, I have practised a lot of JavaScript, which I had less practise
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
-    <!-- <p class="">Stay updated!</p>
+    <p class="">Stay updated!</p>
 
     <p class="">Join 60,000+ product managers receiving monthly updates on:</p>
   
@@ -71,11 +70,11 @@ In this project, I have practised a lot of JavaScript, which I had less practise
     </div>
     <label for="email" ><strong>Email address</strong><span class="">Valid email required</span> 
     </label><br/>
-    <input type="email" id="email" name="email" placeholder="email@gmail.com" class=""> -->
+    <input type="email" id="email" name="email" placeholder="email@gmail.com" class="">
   
 ```
 ```css
-/* .proud-of-this-css {
+.proud-of-this-css {
     height:50px;
     width: 96%;
     border-radius: 5px;
@@ -85,27 +84,27 @@ In this project, I have practised a lot of JavaScript, which I had less practise
     background-color: black;
     color: white;
 
-} */
+}
 ```
 ```js
-// var input;
-// document.querySelector("").addEventListener("click",function(){
-//     input=document.getElementById("").value;
-//     var length_of_input=input.length;
-// var array=[];
-// var arraycheck=['@','g','m','a','i','l','.','c','o','m'];
-// for(var i=10;i>=1;i--){
-//     array.push(input[length_of_input-i]);
-// }
-// if(JSON.stringify(arraycheck)===JSON.stringify(array)){
-//     document.querySelector("").classList.toggle("");
-//     document.querySelector("").classList.toggle("");
-//     document.querySelector("").innerHTML=input;
-// }
-// else{
-//     document.querySelector("").classList.toggle("");
-//     document.querySelector("").classList.toggle("");
-// }
+var input;
+document.querySelector("").addEventListener("click",function(){
+    input=document.getElementById("").value;
+    var length_of_input=input.length;
+var array=[];
+var arraycheck=['@','g','m','a','i','l','.','c','o','m'];
+for(var i=10;i>=1;i--){
+    array.push(input[length_of_input-i]);
+}
+if(JSON.stringify(arraycheck)===JSON.stringify(array)){
+    document.querySelector("").classList.toggle("");
+    document.querySelector("").classList.toggle("");
+    document.querySelector("").innerHTML=input;
+}
+else{
+    document.querySelector("").classList.toggle("");
+    document.querySelector("").classList.toggle("");
+}
 ```
 ### Continued development
 

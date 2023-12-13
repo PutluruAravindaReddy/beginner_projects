@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+input{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 28px;
+    opacity: 0.6;
+    padding-left: 12px;
+    font-family: 'Poppins', sans-serif;
+  }
+.bordere{
+    border: 1.5px solid hsl(0, 1%, 44%);
+}
+.bordere:hover{
+    border:1.5px solid hsl(259, 100%, 65%);
+}
+.day-month-year{
+    display: flex;
+    margin:20px 0 30px 10px;
+}
+.headere{
+    width:450px;
+    height:85px ;
+    margin: 40px 0 0 35px;
+}
+.down-arrow{
+   position:relative;
+   margin-left: 410px;
+   margin-top: -30px;
+   background-color:hsl(259, 100%, 65%) ;
+   padding: 15px;
+   border-radius: 50%;
+}
+.common {
+    display: block;
+    margin:35px 0 7px 0;
+}
+.month,.year{
+    margin-left: 20px;
+}
+.outer-box{
+    width: 550px;
+    height: 200px;
+    margin: 4% 0 0 30%;
+    background-color: white;
+    border-radius: 15px;
+    /* border-top-left-radius: 2%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%; */
+}
+.down-box{
+    margin-top: 11%;
+    margin-left: 40px;
+}
+.for-display{
+    height: 500px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 170px; 
+}
+#display_name-age{
+    font-size: 3.3rem;
+    font-weight: 900;
+    color:#7c39da ;
+}
+.common-display{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-left: 15px;
+}
+.attribution { 
+    font-size: 13px; text-align: center;
+    margin: 30px 0 25px 0; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+#month-feild,#year-above,#year-feild,#date-feild,#month-must,#year-must,#date-must{
+    font-size: 11px;
+    color:  hsl(0, 91%, 54%);
+    margin-top: 5px;
+}
+.border-red{
+    border: 2px solid hsl(0, 91%, 54%);
+}
+.border-empty1:hover{
+    border: 2px solid hsl(0, 99%, 50%);
+}
+.text-red{
+    color: hsl(0, 91%, 54%);
+}
+.invis-date,.invis-month,.invis-year,.invis-above-year,.invis-past-year,.invis-past-month,.invis-past-date{
+    display: none;
+}
+.invi{
+    display: none;
+}
+#show-down{
+    width: 330px;
+    height: 355px;
+    border-radius: 15px;
+    background-color:white;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.heading-age{
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 17px;
+    color:hsl(228, 45%, 44%);
+}
+#display_year_show,#display_month_show,#display_date_show{
+    font-size: 2.7rem;
+    text-align: left;
+    margin-left: 35px;
+    line-height: 1.5;
+    color: black;
+    font-weight: 700;
+}
+#ok_show{
+    background-color: #7c39da;
+    font-size: 1.2rem;
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 120px;
+    border-radius: 5px;
+    border: none;
+}
+.special{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    margin-top: -20px;
+    background-color:hsl(259, 100%, 65%) ;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+img{
+    width: 45px;
+    height: 42px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #5C8984;
+    height:150px;
+    font-family: sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: center;
+ }
+.github{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+a{
+    text-decoration: none;
+    margin-top: 2.3rem;
+    font-size: 23px;
+    color: white;
+}
+.copyright{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 19px;
+}
+.logo{
+    margin:3px 7px 0 0;
+    width: 19px;
+    height: 19px;
+}
+.my_name{
+    color:#00e3fd ;
+}
+.footer-margin{
+    position: static;
+    margin-top: 50px;
+}
+@media(max-width:426px){
+    .outer-box{
+        width: 100%;
+        height: 180px;
+        margin: 130px 0;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .headere{
+        width:340px;
+        height:75px ;
+        margin: 30px 0 0 20px;
+    }
+    .for-display{
+        height: 470px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 100px; 
+    }
+    .down-arrow{
+       position:relative;
+       margin-left: 92%;
+       margin-top: -20px;
+       background-color:hsl(259, 100%, 65%) ;
+       padding: 15px;
+       border-radius: 50%;
+    }
+    .down-box{
+        margin-top: 20%;
+        margin-left: 30px;
+    }
+    #display_name-age{
+        font-size: 3rem;
+        font-weight: 900;
+        color:#7c39da ;
+    }
+    .common-display{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    #month-feild,#year-above,#year-feild,#date-feild,#month-must,#year-must,#date-must{
+        font-size: 10px;
+        color:  hsl(0, 91%, 54%);
+        margin-top: 5px;
+    }
+    input{
+        width: 82%;
+        height:35px;
+        border-radius: 5px;
+        font-size: 23px;
+        opacity: 0.6;
+        padding-left: 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+    img{
+        width: 35px;
+        height: 32px;
+    }
+    #ok_show{
+        background-color: #7c39da;
+        font-size: 1.2rem;
+        width: 90px;
+        height: 30px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 70px;
+        border-radius: 5px;
+        border: none;
+    }
+    a{
+        text-decoration: none;
+        margin-top: 3rem;
+        font-size: 17px;
+        color: white;
+      }
+    .github{
+      margin-right: 7%;
+      margin-left: 7%;
+    }
+    .links{
+      display: flex;
+     justify-content: center;
+    }
+    .copyright{
+        font-size: 15px;
+        text-align: center;
+        color: white;
+    }
+    .logo{
+        margin:2px 5px 0 0;
+        width: 12px;
+        height: 12px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #5C8984;
+        height:140px;
+        font-family: sans-serif;
+    }
+    .footer-margin{
+        position: static;
+        margin-top: 30px;
+    }
+}
