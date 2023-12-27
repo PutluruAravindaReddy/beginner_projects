@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <p>Weather App</p>
+        </div>
+        <div class="input">
+            <input type="text" id="location-input" placeholder="Location...">
+            <input type="button" value="Get" id="btn">
+        </div>
+        <div class="info">
+            <div class="temp-box">
+            <div class="temp"><span id="temp-value">25</span></div>
+            <div class="units-change-div">
+                <span id="unit " class="c">&#176 C</span>
+                <span id="unit" class="unit-f f">&#176 F</span>
+            </div>
+        </div>
+            <div id="weather-desc">Cloudy</div>
+            <div id="location">Hyderabad</div>
+        </div>
+    </div>
+    <script src="scipt.js"></script>
+</body>
+</html>

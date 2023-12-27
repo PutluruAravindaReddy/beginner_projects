@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to right,#36d1dc,#5b86e5);
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 160px;
+    padding-bottom: 50px;
+
+}
+.container .title{
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+}
+.container .input{
+    text-align: center;
+    margin: 15px 0;
+}
+.container #location-input{
+    background-color: white;
+    border: 2px solid rgba(0,0,0,0.4);
+    outline: none;
+    height:42px;
+    padding: 8px 10px;
+    width: 60%;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+.container #location-input:focus{
+    box-shadow: 0px 0px 3px #015b7e;
+}
+.container .input #btn{
+    width: 20%;
+    background-color: #015b7e;
+    color: white;
+    padding: 7px 10px;
+    outline: none;
+    border: #015b7e;
+    position :relative;
+    left:-5px;
+    top:-3px;
+    border-radius: 0 5px 5px 0;
+    height: 42px;
+    cursor: pointer;
+}
+.container .input #btn:hover,.container .input #btn:active{
+    background-color: #015b71;
+    box-shadow: 0 0 2px #015b7e;
+}
+img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+.info{
+    color: #293251;
+}
+.temp{
+    text-align: center;
+    font-size: 85px;
+    font-weight: 600;
+    margin: 5px;
+}
+#c{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#weather-desc{
+    font-size: 40px;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+    margin:5px;
+}
+#location{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 5px;
+}
+.units-change-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.temp-box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 34%;
+}
+.unit-f{
+    opacity:0.5;
+}
+.unit-c{
+    opacity:0.5;
+}
+@media(max-width:420px){
+    body{
+        background-image: url('https://wallpaperaccess.com/full/3481868.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        background-color: white;
+        border-radius: 10px;
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 180px;
+        padding-bottom: 30px;
+    }
+    .container .title{
+        padding: 20px 0;
+        font-size: 50px;
+        text-align: center;
+    }
+    .temp{
+        text-align: center;
+        font-size: 75px;
+        font-weight: 600;
+        margin: 5px;
+    }
+    .units-change-div{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        margin-top: 25px;
+        font-weight: 600;
+    }
+    #weather-desc{
+        font-size: 30px;
+        text-align: center;
+        padding: 8px;
+        font-weight: 600;
+        margin:5px;
+    }
+    #location{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 5px;
+    }
+}
+@media(min-width:421px){
+    body{
+    background-image: url('https://cdn.wallpapersafari.com/38/11/Pw4JGq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}

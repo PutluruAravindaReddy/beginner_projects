@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluclator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Poppins:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outer-outer-div">
+        <div class="silent-btn align-btns"></div>
+        <div class="volume-up-btn align-btns"></div>
+        <div class="volume-down-btn align-btns"></div>
+        <div class="little-silver-border">
+            <div class="outer-div">
+                <div id="header" class="">
+                    <p id="time" class="header-time">11:30</p>
+                    <div class="dynamic-island const-class"></div>
+                    <div class="rightside-header">
+                        <img class="network-meter" src="./ios15-cellular-signal-icon-1.png">
+                        <img class="fiveg" src="./ios15-5g-status-icon-1.webp">
+                        <img class="charging" src="./ios15-battery-status-icon-1.webp">
+                    </div>
+                </div>
+                <img class="control-but" src="./control-button.png">
+                <div>
+                    <img class="calculator-img" src="./calculator-icon.png">
+                    <p class="cal-text">calculator</p>
+                </div>
+                <img class="home-apps"src="./bottom-home.png">
+            </div>
+           
+            <div class="container invis">
+                <img class="control-but-inside" src="./control-button.png">
+                <input type="text" id="text" class="user_input">
+                <p class="invis valid_number">Enter a valid number</p>
+                <div class="first-row">
+                    <button id="button" class="ac">AC</button>
+                    <button  id="button"class="backspace">⌫</button>
+                    <button id="button" class="percent">%</button>
+                    <button id="button" class="division">/</button>
+                </div>
+                <div class="second-row">
+                    <button id="button" class="7">7</button>
+                    <button  id="button"class="8">8</button>
+                    <button  id="button"class="9">9</button>
+                    <button id="button" class="multiply">x</button>
+                </div>
+                <div class="third-row">
+                    <button  id="button"class="4">4</button>
+                    <button  id="button"class="5">5</button>
+                    <button  id="button"class="6">6</button>
+                    <button  id="button"class="subtract">-</button>
+                </div>
+                <div class="fourth-row">
+                    <button  id="button" class="1">1</button>
+                    <button  id="button"class="2">2</button>
+                    <button id="button" class="3">3</button>
+                    <button id="button" class="addition">+</button>
+                </div>
+                <div class="fifth-row">
+                    <button id="button" class="00">00</button>
+                    <button id="button" class="0">0</button>
+                    <button  id="button"class="dot">.</button>
+                    <button id="button" class="equals">=</button>
+                </div>
+            </div>
+            <div class="power-btn align-btns"></div>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.container{
+    width: 280px;
+    height: 558px;
+    padding: 30px 20px;
+    border-radius: 52px;
+    margin-top: 2px;
+    background-color: black;
+    
+}
+input{
+    background: transparent;
+    border: none;
+    width: 260px;
+    padding: 16px;
+    font-size: 4rem;
+    margin: 70px 0 20px 0;
+    box-shadow: 0 3px 15px rgba(84,84,84,0.1);
+    text-align: right;
+    cursor:pointer;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color:#fff;
+}
+button{
+    border-radius: 50%;
+    width: 56.5px;
+    height: 56.5px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 8px;
+    font-size: 1.45rem;
+    font-family: 'Poppins', sans-serif;
+    cursor:pointer;
+    border: none;
+    background-color: #313131;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+}
+button:hover{
+    background: linear-gradient(360deg,#f1eaea,rgba(255,255,255,0.1));
+    color: black;
+    width: 58px;
+    height: 58px;
+}
+
+.ac:hover,.backspace:hover,.percent:hover,.division:hover,.multiply:hover,.addition:hover,.subtract:hover{
+    background-color: white;
+}
+.equals{
+    background-color: #fb7c14;
+}
+.ac,.backspace,.percent,.division,.multiply,.addition,.subtract{
+    font-size: 1.4rem;
+    color: black;
+    background-color: #9f9f9f;
+}
+.multiply,.addition,.subtract{
+    font-size: 1.6rem;
+}
+.valid_number,.must_contain{
+    text-align: right;
+    color: red;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+.equals:hover{
+    background-color: #fb7c14;
+    color: white;
+}
+.invis{
+    display: none;
+}
+
+.outer-outer-div{
+    position: absolute;
+    left: 41%;
+    top: 9%;
+    width: 350px;
+    height: 610px;
+} 
+
+.little-silver-border{
+    /* border: 4px solid #91CE84 ; */
+    border: 3px solid red;
+    border-radius: 55px;
+    width: 320px;
+    height: 620px;
+    margin-left: 10px;
+}
+.outer-div{
+    border: 9px solid rgba(0, 0, 0, 0.84);
+    border-radius: 52px;
+    width: 302px;
+    height: 602px;
+    background-image: url('./iPhone-15-wallpaper_4-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.title-temerature{
+    font-size: 2rem;
+}
+
+.silent-btn{
+    height: 25px;
+    width: 3.5px;
+    position: absolute;
+    top: 14%;
+}
+.volume-up-btn{
+    height: 40px;
+    width: 3.5px;
+    position: absolute;
+    top: 27%;
+}
+.volume-down-btn{
+    height: 40px;
+    width: 3.5px;
+    position: absolute;
+    top: 34.3%;
+}
+.align-btns{
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.power-btn{
+    height: 57px;
+    width: 3.5px;
+    position: absolute;
+    top: 29.9%;
+    right: 3.2%;    
+}
+.dynamic-island{
+    width: 94px;
+    height: 26px;
+    border-radius: 18px;
+    background-color: black;
+    margin-top: 5px;
+}
+#header{
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4px;
+}
+.header-time{
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    background-color: transparent;
+    color: black;
+    font-size: 0.88rem;
+    margin-top: 14.5px;
+    margin-right: 4px;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.rightside-header{
+    display: flex;  
+    flex-direction: row;
+    width: 50px;
+    justify-content: space-evenly;
+    padding-right: 6px;
+    padding-left: 3px;
+}
+.network-meter{
+    height: 14px;
+    width: 27px;
+    margin-top: 15px;
+}
+.fiveg{
+    height: 16px;
+    width: 19px;
+    margin-top: 16px;
+    margin-left: -6.5px;
+}
+.charging{
+    height: 18px;
+    margin-top: 17.5px;
+    margin-left: -2.5px;
+}
+.home-apps{
+    position: absolute;
+    top: 85.5%;
+    left: 8.8%;
+    width: 280px;
+    height: 75px;
+    border-radius: 29px;
+}
+.calculator-img{
+    margin-left: 6%;
+    margin-top: 162px;
+    width: 65px;
+    height: 65px;
+    border-radius: 23%;
+}
+.cal-text{
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;
+    font-size: 14px;
+    margin-left: 21px;
+    color: rgb(32, 31, 31);
+    font-weight: 500;
+}
+.control-but{
+    margin-top:48px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -0.3px;
+}
+.control-but-inside{
+    margin-bottom: -90px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -19px;
+}
+ @media(max-width:420px) {
+
+    .outer-outer-div{
+        position: absolute;
+        left: auto;
+        top:auto;
+    }
+} 

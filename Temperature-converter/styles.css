@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+.outer-outer-div{
+    position: absolute;
+    left: 37%;
+    top: 2%;
+    width: 370px;
+    height: 670px;
+}
+.little-silver-border{
+    /* border: 4px solid #91CE84 ; */
+    border: 3px solid red;
+    border-radius: 55px;
+    width: 340px;
+    height: 670px;
+    margin-left: 10px;
+}
+.outer-div{
+    border: 10px solid rgba(0, 0, 0, 0.84);
+    border-radius: 52px;
+    width: 321px;
+    height: 651px;
+    /* background-color: white; */
+    background-image: url('./iphone-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.silent-btn{
+    height: 25px;
+    width: 3.5px;
+    position: absolute;
+    top: 14%;
+}
+.volume-up-btn{
+    height: 40px;
+    width: 3.5px;
+    position: absolute;
+    top: 27%;
+}
+.volume-down-btn{
+    height: 40px;
+    width: 3.5px;
+    position: absolute;
+    top: 34.3%;
+}
+.align-btns{
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 7px;
+}
+.power-btn{
+    height: 57px;
+    width: 3.5px;
+    position: absolute;
+    top: 29.6%;
+    right: 3.15%;    
+}
+.dynamic-island{
+    width: 35%;
+    height: 3.5%;
+    border-radius: 18px;
+    background-color: black;
+    position: absolute;
+    left: 32.5%;
+    top: 3.3%;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2px;
+    font-family: 'Bree Serif', serif;
+}
+.dynamic-island-invis{
+    width: 80%;
+    height: 8%;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: absolute;
+    left: 9.5%;
+    top: 3.3%;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 6.5%;
+    font-family: 'Roboto';
+}
+.title-click,.title-temerature{
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+}
+.invis{
+    display: none;
+}
+.temperature-box{
+    position: absolute;
+    width: 81%;
+    border-radius: 25px;
+    height: 380px;
+    top: 27%;
+    left: 8.8%;
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.from-form,.to-form{
+    margin-top: 30px;
+    margin-left: 25px;
+    color: rgba(255, 255, 255, 0.932);
+}
+.from-label,.to-label{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+.from-input,.to-input{
+    margin-top: 10px;
+    width: 89.4%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.from-select,.to-select{
+    width: 83%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 26px;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.from-options,.to-options{
+    font-size: 1rem;
+}
+.to-form{
+    margin-top: 30px;
+}
+.submit-btn{
+    width: 140px;
+    height: 45px;
+    border-radius: 18px;
+    font-size: 1.3rem;
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+    border: 2px solid black;
+    margin-top: 22px;
+    margin-left: 85px;
+}
+.submit-btn:hover{
+    border: 4px solid black;
+}
+
+@media(max-width:420px) {
+    .little-silver-border{
+        /* border: 4px solid #91CE84 ; */
+        border: 3px solid red;
+        border-radius: 55px;
+        width: 340px;
+        height: 670px;
+        margin-left: 10px;
+    }
+    .outer-outer-div{
+        position: absolute;
+        left: 4%;
+        top: 6%;
+    }
+}

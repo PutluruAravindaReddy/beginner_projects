@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature-Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Poppins:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="outer-outer-div">
+            <div class="silent-btn align-btns"></div>
+            <div class="volume-up-btn align-btns"></div>
+            <div class="volume-down-btn align-btns"></div>
+            <div class="little-silver-border">
+                <div class="outer-div">
+                    <div class="dynamic-island-invis invis temp-class">Temperature Converter</div>
+                    <div class="dynamic-island title-class">Click Me</div>
+                    <div class="temperature-box invis">
+                        <form class="from-form">
+                            <label for="from-input" class="from-label label-common">From:</label>
+                            <br>
+                            <input type="number" for="from-input" id="from-input" class="from-input">
+                        </form>
+                        <select class="from-select">
+                            <option class="from-celsius options" value="c">Celsius [&deg;C]</option>
+                            <option class="from-farenheit options" value="f">Farenheit [&deg;F]</option>
+                            <option class="from-kelvin options" value="k">Kelvin [K]</option>
+                        </select>
+                        <form class="to-form">
+                            <label for="to-input" class="to-label label-common">To:</label>
+                            <br>
+                            <input type="number" for="to-input" id="to-input" class="to-input">
+                        </form>
+                        <select class="to-select">
+                            <option class="to-celsius to-options" value="c">Celsius [&deg;C]</option>
+                            <option class="to-farenheit to-options" value="f">Farenheit [&deg;F]</option>
+                            <option class="to-kelvin to-options" value="k">Kelvin [K]</option>
+                        </select>
+                        <button class="submit-btn">Convert</button>
+                    </div>
+                </div>
+                <div class="power-btn align-btns"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
